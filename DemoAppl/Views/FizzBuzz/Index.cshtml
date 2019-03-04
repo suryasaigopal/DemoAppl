@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Fizz Buzz Page";
+}
+<link href="~/Content/StyleSheet1.css" rel="stylesheet" />
+<h2>Fizz Buzz Program</h2>
+
+<table>
+    <tr>
+        <th>
+            Display FizzBuzz
+        </th>
+    </tr>
+    @foreach (var vDisplayFizzBuzz in ViewBag.collectionFizzBuzz)
+            {
+        <tr>
+            <td>
+
+                @vDisplayFizzBuzz
+
+            </td>
+        </tr>
+
+
+    }
+    <tr>
+
+
+</table>
