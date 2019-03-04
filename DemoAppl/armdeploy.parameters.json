@@ -1,0 +1,46 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "sai1"
+    },
+    "adminPassword": {
+      "value": "sai1@123?"
+    },
+    "dnsLabelPrefix": {
+      "value": "hellocloud19"
+    },
+    "name": {
+      "value": "Test-992"
+    },
+    "slotname": {
+      "value": "Test-992/staging"
+    },
+    "hostingPlanName": {
+      "value": "Saidemoplan"
+    },
+    "hostingEnvironment": {
+      "value": ""
+    },
+    "location": {
+      "value": "Central US"
+    },
+    "sku": {
+      "value": "Standard"
+    },
+    "workerSize": {
+      "value": "0"
+    },
+    "serverFarmResourceGroup": {
+      "value": "AZDeployRG6"
+    },
+    "skuCode": {
+      "value": "S1"
+    },
+    "subscriptionId": {
+      "value": "5dd10c27-d03a-433d-ade3-e62f1c6dd5a4"
+    }
+
+  }
+}
